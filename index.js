@@ -19,7 +19,8 @@ function demoRouter(text) {
   return `🤖 You said: "${text}" — (demo reply).`
 }
 
-app.get('/', (_req, res) => res.json({ ok: true, service: 'univers-server' }))
+app.get('/', (req, res) => res.json({ ok: true, message: 'Hello from Universe Ecosystem AI 🚀' }))
+}))
 
 app.post('/chat', async (req, res) => {
   const { message } = req.body || {}
