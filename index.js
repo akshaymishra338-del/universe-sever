@@ -61,5 +61,5 @@ app.post('/edu/fees', (req, res) => {
   res.json({ student: 'Demo Student', due: 2450, currency: 'INR', lastPayment: '2025-08-01' })
 })
 
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 3000
 app.listen(port, () => console.log(`univers-server listening on :${port}`))
