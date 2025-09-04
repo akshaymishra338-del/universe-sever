@@ -20,7 +20,7 @@ function demoRouter(text) {
 }
 
 app.get('/', (req, res) => res.json({ ok: true, message: 'Hello from Universe Ecosystem AI 🚀' }))
-}))
+
 
 app.post('/chat', async (req, res) => {
   const { message } = req.body || {}
