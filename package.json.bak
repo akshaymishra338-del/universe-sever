@@ -1,0 +1,21 @@
+{
+  "name": "universe-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaymishra338-del/universe-sever.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaymishra338-del/universe-sever/issues"
+  },
+  "homepage": "https://github.com/akshaymishra338-del/universe-sever#readme"
+}
