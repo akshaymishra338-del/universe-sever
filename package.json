@@ -1,21 +1,13 @@
 {
-  "name": "universe-server",
+  "name": "universe-sever",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akshaymishra338-del/universe-sever.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/akshaymishra338-del/universe-sever/issues"
-  },
-  "homepage": "https://github.com/akshaymishra338-del/universe-sever#readme"
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.0.0"
+  }
 }
